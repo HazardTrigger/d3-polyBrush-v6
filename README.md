@@ -1,6 +1,6 @@
 # d3-polyBrush-v6
 
-This is a compatible version of polybrush, created by Geoffrey T. Bell, for d3 v6.
+This is a compatible version of polybrush, created by [Geoffrey T. Bell](https://gist.github.com/gtb104/3667340), for d3 v6.
 
 This plugin is inspired by the d3-4.x based plugin from: [here](https://github.com/junwang23/polybrushv4).
 
