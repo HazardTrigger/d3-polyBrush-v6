@@ -83,7 +83,7 @@ Clear the extent and return the brush.
 
 Determine whether the extent is empty.
 
-<a href="#brush_on" name="brush_on">#</a> <i>brush</i>.<b>on</b>(<i>typenames</i>[, <i>listener</i>])
+<a href="#brush_on" name="brush_on">#</a> <i>polyBrush</i>.<b>on</b>(<i>typenames</i>[, <i>listener</i>])
 
 If *listener* is specified, sets the event *listener* for the specified *typenames* and returns the brush. If an event listener was already registered for the same type and name, the existing listener is removed before the new listener is added. If *listener* is null, removes the current event listeners for the specified *typenames*, if any. If *listener* is not specified, returns the first currently-assigned listener matching the specified *typenames*, if any. When a specified event is dispatched, each *listener* will be invoked with the same context and arguments as [*selection*.on](https://github.com/d3/d3-selection#selection_on) listeners: the current event `event` and datum `d`, with the `this` context as the current DOM element.
 
